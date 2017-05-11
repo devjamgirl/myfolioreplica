@@ -1,0 +1,91 @@
+/* to style the page nav section*/
+nav {
+  background-color: #02908B;
+            height: 60px;
+              left: 0;
+          position: fixed;
+          /*position is fixed so it could always be at the top*/
+             right: 0;
+               top: 0;
+               /* this puts the nav bar over the rest of the page*/
+           z-index: 100;
+}
+/*nav > a styles the nav link for Folio and the span is used to style it individually*/
+nav > a {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    /*makes the font bold*/
+    font-weight: 700;
+    left: 25px; /*pushes my folio to the left*/
+    position: absolute;
+    text-align: left;
+    text-decoration: none;
+    top: 10px;
+}
+/* must identify the nav section, then the span which identified Folio */
+nav span {
+    font-family: 'Open Sans', sans-serif;
+    color: #cfc91d;
+    text-align: left;
+}
+/* used to style the list. make it position to the right of page*/
+nav ul {
+    position: absolute;
+    right: 25px;
+    top: 5px;
+  }
+/*to style the li in the inline block style, nav dictates the section, li dictates the list*/
+nav li {
+      display: inline-block;
+      padding: 0 15px;
+}
+/*to style links in the nav li*/
+nav li > a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+header {
+    background-attachment: fixed;
+    background-image: url(http://www.dapperq.com/wp-content/uploads/2014/01/Day2c.jpg);
+    background-repeat: no-repeat;
+    /* to ensure the background is filled to the full part of screen.*/
+    background-size: 100% 100%;
+    background-position: 100% 50%;
+    color: #fff;
+    height: 500px;
+    padding-top: 15%;
+    text-align: center;
+}
+/* to size p in the header section*/
+header p {
+    margin-top: 0;
+}
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+header h2 {
+    font-size: 72px;
+    letter-spacing: 20px;
+    margin: 0;
+}
+header img {
+    padding: 35px 0;
+}
+header a {
+    background-color: #CDC71D;
+    color: #0B1016;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 35px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+section {
+    padding: 50px 0;
+}
+#about {
+    text-align: center;
+}
